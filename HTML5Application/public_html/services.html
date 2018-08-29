@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Fast, professional and affordable auto repair">
+	  <meta name="keywords" content="Auto repair, affordable auto repair, austin garage and transmission">
+  	<meta name="author" content="Tim Cheek">
+    <title>Austin Garage and Transmission | Welcome</title>
+    <link rel="stylesheet" href="./master.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <h1><span class="highlight">Austin</span> Garage and Transmission</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="callUs">
+      <div class="container">
+        <h1>Speak to a Professional about your car service needs.</h1>
+          <a href="tel:+1(314)-556-1728"><button type="submit" class="button_1" onclick="href:"contact.html""><i class="fas fa-phone fa-2x"></i> (314)-556-1728</button></a>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Services</h1>
+          <ul id="services">
+            <li>
+              <h3>Oil Change Special</h3>
+              <p> Has it been 3,000 miles since your last oil change? Its time to get a fresh oil change! Let us show you why Austin chooses locally owned businesses!</p>
+              <p id="oilSpecial">*Some manufacturers require specific fluids to maintain your vehicles warranty. So some exclusions will apply, including any vehcles requiring a synthetic oil change.</p>
+						  <p>Special Pricing: Starting at &#36;49.95</p>
+            </li>
+            <li>
+              <h3>Tire, brake inspection and balancing</h3>
+              <p>Remove all 4 wheels, inspect all brake components for signs of failure, install diagnostic scanner to communicate with the vehicle to retrive any codes that may be present.</p>
+						  <p>Special Pricing: Complementary</p>
+            </li>
+            <li>
+              <h3>Check Engine Light Diagnostic</h3>
+              <p>Installing scanner to check if any codes are present in order to determine any issues you may have (concerning driveablity).</p>
+						  <p>Special Pricing: Complementary</p>
+            </li>
+          </ul>
+        </article>
+
+
+
+        <!-- TESTINGGGGGGGGKSDSFDNFSDFSDF -->
+        <aside id="sidebar">
+        <div class="dark">
+
+        <form class="quote" method="post" name="myemailform" action="form-to-email.php">
+          <p>
+            <label for='name'>Enter Name: </label><br>
+            <input type="text" name="name">
+          </p>
+          <p>
+            <label for='email'>Enter Email Address:</label><br>
+            <input type="text" name="email">
+          </p>
+          <p>
+            <label for='message'>Enter Message:</label> <br>
+            <textarea name="message"></textarea>
+          </p>
+          <input type="submit" name='submit' value="submit">
+        </form>
+      </div>
+        </aside>
+
+        <!--  -->
+
+        <!-- <aside id="sidebar">
+          <div class="dark">
+            <h3>Get A Quote</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Emial Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside> -->
+      </div>
+    </section>
+
+    <footer>
+      <p>Tim Cheek, Copyright &copy; 2018</p>
+    </footer>
+    <?php include 'emailFunction.php';?>
+  </body>
+</html>
